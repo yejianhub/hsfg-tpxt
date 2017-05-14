@@ -1,0 +1,44 @@
+*{
+    margin: 0;padding: 0;
+
+}
+body{
+    font-family: "Microsoft YaHei";
+    overflow: hidden;
+}
+ul,li{
+    list-style-type: none;
+}
+.txt{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+
+
+}
+
+
+.footer ul li{
+    float:left ;
+    border: 0.01rem solid#ccc;
+    width: 6.34rem;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    text-align: center;
+    margin-top: 18.6rem;
+
+
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #000;
+
+}
+.footer ul li:hover{
+    background: #ff6600;
+
+}
+
+.footer ul li a:hover{
+    color: #efefef;
+}

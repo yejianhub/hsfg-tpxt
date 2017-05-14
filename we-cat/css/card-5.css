@@ -1,0 +1,109 @@
+
+body{
+    background: #efefef;
+    overflow: hidden;
+}
+
+.sous {
+    width: 104%;
+    background: #f1da7c;
+    height: 3rem;
+    margin-top: -0.6rem;
+    margin-left: -0.5rem;
+}
+.first_child {
+    width: 80%;
+    height: 1.8rem;
+    border: 0.01rem solid#ccc;
+    border-radius: 0.1rem;
+    margin-left: 1.2rem;
+    background: #ccc;
+    margin-top: 0.1rem;
+    position: relative;
+    top: 30%;
+    z-index: 1;
+    opacity: .6;
+}
+.btn {
+    outline: none;
+    border: none;
+    background: #fff;
+    position: relative;
+    top: -0.8rem;
+    left: 22.5rem;
+    font-size: .3rem;
+}
+
+.first_child input {
+    outline: none;
+    border: none;
+    color: #fff;
+    position: relative;
+    top: -.36rem;
+    left: .8rem;
+    background: #ccc;
+    width: 86%;
+}
+
+.first_child img{
+    position: relative;
+    top: 0.2rem;
+    left: 1rem;
+    z-index: 2;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    background: #f1da7c;
+    position: relative;
+    top: -0.8rem;
+    left: 22.5rem;
+    font-size: 16px;
+}
+.btn a{
+    text-decoration: none;
+    color: #f60;
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+
+.Txt{
+    margin-top: 0.6rem;
+    margin-left: -0.35rem;
+    font-family: "Microsoft YaHei";
+    font-size:16px;
+    background: #fff;
+    width: 110%;
+}
+.Txt img{
+ width: 9rem;
+ height:10.5rem;
+    margin-left: 1rem;
+}
+
+.txt-1{
+    margin-left: 40%;
+    margin-top: -43%;
+}
+.txt-2{
+    width:86%;
+    margin-left: 3%;
+    font-size: 17px;
+}
+.bto{
+    outline: none;
+    border: none;
+    width: 82%;
+    height: 3.2rem;
+    background: #eb9a1c;
+    margin-left: 5.5%;
+    margin-top: 3%;
+    border-radius: 0.5rem;
+}
+.bto a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+}

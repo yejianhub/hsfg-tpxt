@@ -1,0 +1,99 @@
+body{
+    background: #efefef;
+    font-family: "Microsoft YaHei";
+}
+
+
+.sous {
+    width: 104%;
+    background: #f1da7c;
+    height: 3rem;
+    margin-top: -0.6rem;
+    margin-left: -0.5rem;
+}
+.first_child {
+    width: 80%;
+    height: 1.8rem;
+    border: 0.01rem solid#ccc;
+    border-radius: 0.1rem;
+    margin-left: 1.2rem;
+    background: #ccc;
+    margin-top: 0.1rem;
+    position: relative;
+    top: 30%;
+    z-index: 1;
+    opacity: .6;
+}
+.btn {
+    outline: none;
+    border: none;
+    background: #fff;
+    position: relative;
+    top: -0.8rem;
+    left: 22.5rem;
+    font-size: .3rem;
+}
+
+.first_child input {
+    outline: none;
+    border: none;
+    color: #fff;
+    position: relative;
+    top: -.36rem;
+    left: .8rem;
+    background: #ccc;
+    width: 86%;
+}
+
+.first_child img{
+    position: relative;
+    top: 0.2rem;
+    left: 1rem;
+    z-index: 2;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    background: #f1da7c;
+    position: relative;
+    top: -0.8rem;
+    left: 22.5rem;
+    font-size: 16px;
+}
+.btn a{
+    text-decoration: none;
+    color: #f60;
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+
+.sous-1 {
+    width: 105%;
+    height: 6rem;
+    background: #fff;
+    margin-left: -2.5%;
+
+}
+.sous-1 img{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 1.2rem;
+    margin-top: 0.2rem;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.bh{
+    margin-left: 25%;
+    margin-top: -25%;
+}
+
+.right{
+    color: #efefef;
+    font-size: 20px;
+    margin-left: 90%;
+    margin-top: -20%;
+}

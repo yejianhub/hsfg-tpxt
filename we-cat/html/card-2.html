@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我要投票</title>
+    <meta name="viewport" content="initial-scale=1,width=device-width,user-scalable=no,maximum-scale=1.0">
+    <meta name="format-detection" content="telephone=no"/>
+    
+    <link rel="stylesheet" href="../css/card-2.css">
+    <link rel="shortcut icon" href="../images/logo.jpg"/>
+
+
+</head>
+<body>
+
+<div class="sous">
+
+<div class="first_child">
+    <img src="../images/sous.png" alt="">
+    <input type="text"    placeholder="支持编号、姓名、寺庙搜索" >
+</div>
+    <button class="btn"><a href="card-6.html">搜索</a></button>
+
+</div>
+
+<div class="second_child">
+    <ul>
+        <li><div class="list-1"><a href="card-5.html"><img src="../images/bianhao@2x.png" alt=""></a>
+          <p>编号:&nbsp;1020</p>
+          <p id="list-2">雷锋寺:&nbsp;法海</p>
+           <p id="list-2">票数:&nbsp;<span style="color: #f60">1060</span></p>
+        </div></li>
+        <li>
+            <div class="list-1" id="list-1"><a href="card-5.html"><img src="../images/bianhao@2x.png" alt=""></a>
+                <p>编号:&nbsp;1020</p>
+                <p id="list-2">雷锋寺:&nbsp;法海</p>
+                <p id="list-2">票数:&nbsp;<span style="color: #f60">1060</span></p>
+            </div>
+        </li>
+        <li>
+            <div class="list-1" id="list-1"><a href="card-5.html"><img src="../images/bianhao@2x.png" alt=""></a>
+                <p>编号:&nbsp;1020</p>
+                <p id="list-2">雷锋寺:&nbsp;法海</p>
+                <p id="list-2">票数:&nbsp;<span style="color: #f60">1060</span></p>
+            </div>
+        </li>
+        <li><div class="list-1" id="list-4"><a href="card-5.html"><img src="../images/bianhao@2x.png" alt=""></a>
+            <p id="l-1">编号:&nbsp;1020</p>
+            <p id="l-2">雷锋寺:&nbsp;法海</p>
+            <p id="l-3">票数:&nbsp;<span style="color: #f60">1060</span></p>
+        </div></li>
+        <li>
+            <div class="list-1" id="list-5"><a href="card-5.html"><img src="../images/bianhao@2x.png" alt=""></a>
+                <p id="l-4">编号:&nbsp;1020</p>
+                <p id="l-5">雷锋寺:&nbsp;法海</p>
+                <p id="l-6">票数:&nbsp;<span style="color: #f60">1060</span></p>
+            </div>
+        </li>
+        <li><div class="list-1" id="list-6"><a href="card-5.html"><img src="../images/bianhao@2x.png" alt=""></a>
+            <p id="l-7">编号:&nbsp;1020</p>
+            <p id="l-8">雷锋寺:&nbsp;法海</p>
+            <p id="l-9">票数:&nbsp;<span style="color: #f60">1060</span></p>
+        </div></li>
+    </ul>
+
+
+</div>
+<div class="footer">
+    <ul>
+        <li><a href="index.html">最新排名</a></li>
+        <li id="cart-2"><a href="card-2.html">我要投票</a></li>
+        <li><a href="card-3.html">活动规则</a></li>
+        <li><a href="card-4.html">我要参加</a></li>
+    </ul>
+
+
+</div>
+<div class="clear"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    // 目的是设置： 1rem = 100px
+    new function () {
+        var _self = this;
+        _self.width = 750; // 设置默认最大宽度
+        _self.fontSize = 100; // 默认字体大小
+        _self.widthProportion = function () {
+            var P = (document.body && document.body.clientWidth || document.getElementsByTagName("html")[0].offsetWidth) / _self.width;
+            return P;
+        };
+        _self.changePage = function () {
+            document.getElementsByTagName("html")[0].setAttribute("style", "font-size:" + _self.widthProportion() * _self.fontSize + "px !important");
+        };
+        _self.changePage();
+        window.addEventListener('resize', function () {
+            _self.changePage();
+        }, false);
+    };
+</script>
+
+<script src="../js/Myjs.js"></script>
+<script src="../js/jquery-1.9.1.min.js"></script>
+
+</body>
+</html>
